@@ -58,11 +58,11 @@ Build an interpretable, explainable ML model to score cross-border payment trans
 |---|---|---|---|
 | 01 | `01_eda.ipynb` | Exploratory Data Analysis + Leakage Gate | 🔄 In Progress |
 | 02 | `02_rule_baseline.ipynb` | Rule-based comparator (mandatory before ML) | ❌ Not Started |
-| 03 | `03_data_cleaning.ipynb` | Missing value treatment, dtype fixes, deduplication | ❌ Not Started |
-| 04 | `04_feature_engineering.ipynb` | Build 30+ features across 5 categories | ❌ Not Started |
-| 05 | `05_feature_validation.ipynb` | Variance, correlation, leakage, importance check | ❌ Not Started |
+| 03 | `03_data_cleaning.ipynb` | Missing value treatment, dtype fixes, deduplication | ✅ Complete |
+| 04 | `04_feature_engineering.ipynb` | Build 30+ features across 5 categories | ✅ Complete |
+| 05 | `05_feature_validation.ipynb` | Variance, correlation, leakage, importance check | ✅ Complete |
 | 06 | `06_train_test_split.ipynb` | Temporal 70/20/10 split + stratification | ❌ Not Started |
-| 07 | `07_logistic_regression.ipynb` | Interpretable ML baseline | ❌ Not Started |
+| 07 | `07_logistic_regression.ipynb` | Interpretable ML baseline | 🔄 In Progress |
 | 08 | `08_xgboost.ipynb` | Champion candidate A | ❌ Not Started |
 | 09 | `09_lightgbm.ipynb` | Champion candidate B | ❌ Not Started |
 | 10 | `10_isolation_forest.ipynb` | Anomaly detection layer | ❌ Not Started |
