@@ -1,0 +1,54 @@
+﻿project:
+  name: Cross-Border Transaction Risk Scoring Engine
+  version: "1.0-poc"
+  dataset_version: "V3.1"
+  random_seed: 42
+
+paths:
+  data_raw: data/raw
+  data_processed: data/processed
+  data_output: data/output
+  models: models
+  reports: reports
+  outputs: outputs
+
+data:
+  customers_file: customers.csv
+  accounts_file: accounts.csv
+  transactions_file: transactions.csv
+
+dataset_params:
+  total_transactions: 50800
+  total_customers: 500
+  total_accounts: 780
+  fraud_cases: 250
+  fraud_rate: 0.0049
+  max_amount_usd: 200000
+
+split:
+  train_ratio: 0.70
+  val_ratio: 0.20
+  test_ratio: 0.10
+  split_type: temporal
+
+model:
+  target_column: is_fraud
+  drop_columns:
+    - transaction_id
+    - timestamp
+    - fraud_type
+    - sanction_list_source
+    - gst_registered
+
+success_criteria:
+  auc_pr_min: 0.72
+  recall_at_5pct_fpr_min: 0.75
+  precision_min: 0.65
+  f1_min: 0.68
+  leakage_gate_auc_max: 0.90
+  ml_recall_vs_baseline_improvement_min: 0.15
+
+risk_tiers:
+  green:  [0, 39]
+  amber:  [40, 79]
+  red:    [80, 100]

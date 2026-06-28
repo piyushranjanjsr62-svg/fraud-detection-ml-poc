@@ -1,0 +1,74 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+*.so
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data — never commit raw or processed data
+data/raw/
+data/processed/
+data/output/
+
+# Models — large binary artifacts
+models/*.pkl
+models/*.joblib
+models/*.cbm
+models/*.bin
+models/*.json
+!models/.gitkeep
+
+# MLflow
+mlruns/
+mlflow.db
+
+# Reports / outputs — generated artifacts
+reports/*.html
+outputs/
+
+# Secrets and environment
+.env
+*.env
+secrets.yaml
+config/secrets.yaml
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# Large files
+*.pdf
+*.xlsx
+*.zip
+*.tar.gz
+*.PNG
+*.png
+*.jpg
+
+# Logs
+*.log
+logs/
+
+# Claude Code local settings (keep commands/ but not personal settings)
+.claude/settings.local.json
