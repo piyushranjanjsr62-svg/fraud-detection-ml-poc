@@ -63,7 +63,7 @@ Build an interpretable, explainable ML model to score cross-border payment trans
 | 05 | `05_feature_validation.ipynb` | Variance, correlation, leakage, importance check | ✅ Complete |
 | 06 | `06_train_test_split.ipynb` | Temporal 70/20/10 split + stratification | ✅ Complete |
 | 07 | `07_logistic_regression.ipynb` | Interpretable ML baseline | ✅ Complete |
-| 08 | `08_xgboost.ipynb` | Champion candidate A | ❌ Not Started |
+| 08 | `08_xgboost.ipynb` | Champion candidate A | ✅ Complete |
 | 09 | `09_lightgbm.ipynb` | Champion candidate B | ❌ Not Started |
 | 10 | `10_isolation_forest.ipynb` | Anomaly detection layer | ❌ Not Started |
 | 11 | `11_model_evaluation.ipynb` | Champion selection + metric comparison | ❌ Not Started |
