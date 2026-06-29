@@ -69,7 +69,7 @@ Build an interpretable, explainable ML model to score cross-border payment trans
 | 11 | `11_model_evaluation.ipynb` | Champion selection + metric comparison | ✅ Complete |
 | 12 | `12_threshold_optimization.ipynb` | Precision/recall tradeoff + threshold tuning | ✅ Complete |
 | 13 | `13_shap_explainability.ipynb` | SHAP values + top-5 feature explanations | ✅ Complete |
-| 14 | `14_batch_scoring.ipynb` | End-to-end scoring pipeline (CSV in → CSV out) | ❌ Not Started |
+| 14 | `14_batch_scoring.ipynb` | End-to-end scoring pipeline (CSV in → CSV out) | ✅ Complete |
 | 15 | `15_final_demo.ipynb` | PoC demo notebook — clean, presentation-ready | ❌ Not Started |
 
 ## Compliance Notes
