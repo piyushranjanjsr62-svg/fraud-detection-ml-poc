@@ -66,7 +66,7 @@ Build an interpretable, explainable ML model to score cross-border payment trans
 | 08 | `08_xgboost.ipynb` | Champion candidate A | ✅ Complete |
 | 09 | `09_lightgbm.ipynb` | Champion candidate B | ✅ Complete |
 | 10 | `10_isolation_forest.ipynb` | Anomaly detection layer | ❌ Not Started |
-| 11 | `11_model_evaluation.ipynb` | Champion selection + metric comparison | ❌ Not Started |
+| 11 | `11_model_evaluation.ipynb` | Champion selection + metric comparison | ✅ Complete |
 | 12 | `12_threshold_optimization.ipynb` | Precision/recall tradeoff + threshold tuning | ❌ Not Started |
 | 13 | `13_shap_explainability.ipynb` | SHAP values + top-5 feature explanations | ❌ Not Started |
 | 14 | `14_batch_scoring.ipynb` | End-to-end scoring pipeline (CSV in → CSV out) | ❌ Not Started |
